@@ -1,0 +1,44 @@
+/* Custom Wordpress Login Page Style */
+
+
+/* Wordpress Logo Replacement (Don't forget to change width and height */
+
+.login h1 {
+	width: 355px; height: 90px;
+	background: url('../images/logo-2x.png') no-repeat;
+	background-size: 100%;
+	margin: 0 auto 25px auto;
+	margin-left: -15px;
+	padding: 0px;
+}
+.login h1 a { display: none; }
+
+/* Background Color */
+
+body.login { background: #000;}
+
+.message { margin-bottom: 0px; }
+
+#loginform {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
+}
+
+/* Login Button */
+
+p.submit {border: none;}
+#wp-submit {
+	background: #990000;
+	border: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:    none;
+	box-shadow:         none;
+}
+
+/* Lost Password Link & Back to blog link */
+
+.login #nav a, .login p#backtoblog a { display: none; }
