@@ -1,5 +1,1 @@
-This is a theme for blog.campanella.se
-
-Works with Gutenberg and supports wide & full alignments
-
-A lot of things like the logo and footer sidebar are hardcoded into the theme
+This is the WordPress theme for my website (blog.campanella.se). The theme is fully responsive and uses a Flexbox based card layout for the index, archive, category, and tags pages. Single pages are single column. The theme works will with Gutenberg. A lot of items like the logo are hardcoded into the theme as it is only used by me. 
